@@ -7,6 +7,6 @@ Create a "renovate.json" file in the root of your repository using the [example 
 ### Renovate Config Example
 ```json
 {
-  "extends": ["@ht2-labs"]
+  "extends": ["@ht2-labs:base"]
 }
 ```
