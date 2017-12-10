@@ -1,0 +1,21 @@
+{
+  "name": "@ht2-labs/renovate-config",
+  "version": "1.0.0",
+  "description": "A package containing HT2 Labs' configs for renovate.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HT2-Labs/renovate-config"
+  },
+  "author": "HT2-Labs",
+  "license": "GPL-3.0",
+  "renovate-config": {
+    "base": {
+      "extends": [":library"],
+      "automerge": true,
+      "automergeType": "branch-push",
+      "major": {
+        "automerge": false
+      }
+    }
+  }
+}
