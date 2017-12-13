@@ -1,21 +1,32 @@
 {
   "name": "@ht2-labs/renovate-config",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "A package containing HT2 Labs' configs for renovate.",
   "repository": {
     "type": "git",
     "url": "https://github.com/HT2-Labs/renovate-config"
   },
-  "author": "HT2-Labs",
+  "author": "ht2-labs",
   "license": "GPL-3.0",
+  "scripts": {
+    "semantic-release": "ht2-release-public-circleci-lib"
+  },
   "renovate-config": {
     "base": {
-      "extends": [":library"],
+      "extends": [
+        ":library"
+      ],
       "automerge": true,
       "automergeType": "branch-push",
       "major": {
         "automerge": false
       }
     }
+  },
+  "devDependencies": {
+    "@ht2-labs/semantic-release": "^1.0.1"
+  },
+  "publishConfig": {
+    "access": true
   }
 }
