@@ -14,7 +14,7 @@
   "renovate-config": {
     "base": {
       "extends": [
-        ":library"
+        "config:js-lib"
       ],
       "automerge": true,
       "automergeType": "branch-push",
