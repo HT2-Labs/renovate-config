@@ -16,6 +16,7 @@
       "extends": [
         "config:js-lib"
       ],
+      "rangeStrategy": "replace",
       "automerge": true,
       "automergeType": "branch-push",
       "major": {
